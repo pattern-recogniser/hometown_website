@@ -1,0 +1,13 @@
+body {
+    padding: 0px;
+    width: 720px;
+    margin: 0px auto;
+
+}
+
+#hero {
+    display: block;
+    height: 370px;
+    background-image: url(images/dublin_cover_hapenny.jpg);
+    background-size: cover;
+}
