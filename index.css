@@ -1,13 +1,98 @@
 body {
-    padding: 0px;
     width: 720px;
     margin: 0px auto;
-
+    color: black;
+    text-align: center;
+    font-family: 'Rethink Sans', sans-serif;
 }
 
+* {
+    /* Browser adds padding, and hence resetting all */
+    margin: 0;
+    padding: 0;}
+
+
 #hero {
-    display: block;
-    height: 370px;
-    background-image: url(images/dublin_cover_hapenny.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+    height: 400px;
+    background-image: url(images/hero_cover.jpg);
     background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-text {
+    background-color: #2a9d8f;
+    border-radius: 10px;
+    padding: 3px 10px;
+    margin: 10px 0px;
+}
+
+
+.avatar {
+    width: 150px;
+    height: auto;
+}
+
+#guide_text{
+    font-style: italic;
+}
+
+.activities-section {
+    height: 500;
+    width: 720px;
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.activities-div {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    text-wrap: wrap;
+}
+
+.h4 {
+    margin: 10px 0;
+    padding: 5px 0;
+}
+
+.activity_img {
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    padding: 0px 0px 10px 0px;
+    margin: 0;
+}
+
+.card-section{
+    height: 400px;
+    background-color: white;
+    padding: 40px 0px;
+}
+
+.card {
+    width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #e9c46a;
+    color: #264653;
+    border: 2px black solid;
+    border-bottom: 15px inset black;
+    border-radius: 15px;
+}
+
+.border {
+    /* border: 1px black solid; */
+    width: 250px;
+    padding: 10px 25px;
 }
